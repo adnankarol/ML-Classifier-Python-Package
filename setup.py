@@ -6,7 +6,7 @@ with open("Readme.md", "r") as myfile:
  
 setup(
   name='classifier_agent',
-  version='0.0.1',
+  version='0.0.2',
   description='A simple package to perform classification on a given dataset in csv or excel format',
   long_description = long_description,
   long_description_content_type="text/markdown",
