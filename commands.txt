@@ -1,0 +1,6 @@
+# List of Command to update to Pypi
+
+python setup.py bdist_wheel
+pip install -e .   
+python setup.py sdist    
+twine upload dist/*   
