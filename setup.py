@@ -18,11 +18,11 @@ def parse_requirements(filename):
 
 setup(
     name='classifierAgent',
-    version='1.0.8',
+    version='1.0.9',
     description='A Python package for performing classification on datasets.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/adnanmushtaq1996/ML-Classifier-Python-Package',
+    url='https://github.com/adnankarol/classifierAgent',
     author='Adnan Karol',
     author_email='adnanmushtaq5@gmail.com',
     license='MIT',
