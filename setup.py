@@ -1,5 +1,5 @@
 __author__ = "Adnan Karol"
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 __maintainer__ = "Adnan Karol"
 __email__ = "adnanmushtaq5@gmail.com"
 __status__ = "PROD"
@@ -18,7 +18,7 @@ def parse_requirements(filename):
 
 setup(
     name='classifierAgent',
-    version='1.0.3',  # Updated version number
+    version='1.0.4',  # Updated version number
     description='A Python package for performing classification on datasets in CSV or Excel format.',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -40,7 +40,12 @@ setup(
     install_requires=parse_requirements('requirements.txt'),
     entry_points={
         'console_scripts': [
-            'classifierAgent=classifierAgent.__main__:main', 
+            'classifierAgent=classifierAgent.cli:main',
         ],
-    }
+    },
+    project_urls={
+        'Documentation': 'https://github.com/adnanmushtaq1996/ML-Classifier-Python-Package',
+        'Source': 'https://github.com/adnanmushtaq1996/ML-Classifier-Python-Package',
+        'Tracker': 'https://github.com/adnanmushtaq1996/ML-Classifier-Python-Package/issues',
+    },
 )
