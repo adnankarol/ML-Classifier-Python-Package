@@ -100,7 +100,7 @@ def plot_confusion_matrix(y_true, y_pred, model_name, show_plot=True):
     if show_plot:
         plt.show()
 
-def classifier_agent(dataset, output_column, train_test_ratio, scaling_method=None, perform_grid_search=False, save_models=False, show_confusion_matrix=False, show_classification_report=False):
+def classifierAgent(dataset, output_column, train_test_ratio, scaling_method=None, perform_grid_search=False, save_models=False, show_confusion_matrix=False, show_classification_report=False):
     """
     Trains multiple classifiers on the provided dataset and returns their performance metrics.
     

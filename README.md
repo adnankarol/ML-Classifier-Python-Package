@@ -1,4 +1,4 @@
-# Machine Learning Classification Python Package
+# classifierAgent: Machine Learning Classification Python Package
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -47,7 +47,7 @@ The package takes the following parameters as input:
 Make sure you have Python installed on your system. You can install the package using pip:
 
 ```sh
-pip install classifier_agent
+pip install classifierAgent
 ```
 
 # Usage
@@ -55,7 +55,7 @@ pip install classifier_agent
 Here's an example of how to use the package:
 
 ```python
-from classifier_agent import classifier_agent
+from classifierAgent import classifierAgent
 
 dataset_path = "diabetes.csv"
 output_column = "Outcome"
@@ -66,7 +66,7 @@ save_models = True  # Whether to save models
 show_confusion_matrix = True  # Whether to plot the confusion matrix
 show_classification_report = True  # Whether to print the classification report
 
-results = classifier_agent(dataset_path, output_column, train_test_ratio, scaling_method, perform_grid_search, save_models, show_confusion_matrix, show_classification_report)
+results = classifierAgent(dataset_path, output_column, train_test_ratio, scaling_method, perform_grid_search, save_models, show_confusion_matrix, show_classification_report)
 print(results)
 ```
 

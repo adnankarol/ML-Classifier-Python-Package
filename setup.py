@@ -17,7 +17,7 @@ def parse_requirements(filename):
         return [line.strip() for line in file if line.strip() and not line.startswith("#")]
 
 setup(
-    name='classifier_agent',
+    name='classifierAgent',
     version='1.0.1',  # Updated version number
     description='A Python package for performing classification on datasets in CSV or Excel format.',
     long_description=long_description,
@@ -40,7 +40,7 @@ setup(
     install_requires=parse_requirements('requirements.txt'),
     entry_points={
         'console_scripts': [
-            'classifier_agent=classifier_agent.__main__:main', 
+            'classifierAgent=classifierAgent.__main__:main', 
         ],
     },
     project_urls={
