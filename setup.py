@@ -18,7 +18,7 @@ def parse_requirements(filename):
 
 setup(
     name='classifierAgent',
-    version='1.0.9',
+    version='1.1.0',
     description='A Python package for performing classification on datasets.',
     long_description=long_description,
     long_description_content_type="text/markdown",
