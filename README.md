@@ -3,11 +3,11 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-## Overview
+# Overview
 
 This Python package provides a comprehensive solution for performing classification tasks using various popular machine learning algorithms. It allows you to read a dataset, preprocess it, train multiple classifiers, perform hyperparameter tuning, and visualize model performance. Additionally, it provides options for scaling data, saving trained models, and customizing the output display.
 
-## Features
+# Features
 
 1. **Classification Algorithms**:
    - Logistic Regression
@@ -42,7 +42,7 @@ The package takes the following parameters as input:
 - `show_confusion_matrix` (optional): Whether to display confusion matrix plots (default is `False`).
 - `show_classification_report` (optional): Whether to print classification reports (default is `False`).
 
-## Installation
+# Installation
 
 Make sure you have Python installed on your system. You can install the package using pip:
 
@@ -50,7 +50,7 @@ Make sure you have Python installed on your system. You can install the package 
 pip install classifier_agent
 ```
 
-## Usage
+# Usage
 
 Here's an example of how to use the package:
 
@@ -70,7 +70,7 @@ results = classifier_agent(dataset_path, output_column, train_test_ratio, scalin
 print(results)
 ```
 
-## Example Output
+# Example Output
 
 The output is a DataFrame that looks like this:
 
@@ -85,17 +85,7 @@ The output is a DataFrame that looks like this:
 | GaussianNB              | 0.75     | 0.73     | {} |
 | BernoulliNB             | 0.73     | 0.72     | {} |
 
-## Notes
-
-- The package is actively developed and may receive updates.
-- The project is developed with Python version `3.10`.
-- If you encounter any issues or have questions, feel free to contact me on [LinkedIn](https://www.linkedin.com/in/adnan-karol-aa1666179/).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Publishing to PyPI
+# Publishing to PyPI
 
 To publish this package to PyPI, follow these steps:
 
@@ -126,3 +116,29 @@ To publish this package to PyPI, follow these steps:
    After uploading, check your package on [PyPI](https://pypi.org/) to ensure it appears correctly.
 
 For more detailed instructions, refer to the [PyPI documentation](https://packaging.python.org/tutorials/packaging-projects/).
+
+# Automated Publishing with GitHub Actions
+
+To automate the publishing of your package to PyPI, GitHub Actions is setup. This allows to push updates to PyPI whenever changes are made to the `main` branch.
+
+### Setting Up GitHub Actions
+
+1. **Add Your PyPI Token to GitHub Secrets:**
+   - Go to your repository settings.
+   - Navigate to "Secrets and variables" > "Actions".
+   - Add a new secret with the name `PYPI_TOKEN` and paste your PyPI token as the value.
+
+2. **Create a GitHub Actions Workflow File:**
+   - Add a `.github/workflows/publish.yml` file to your repository with the following content:
+
+This setup will automatically build and publish your package to PyPI whenever you push changes to the `main` branch. Make sure to test your workflow to ensure that everything works as expected.
+
+# Notes
+
+- The package is actively developed and may receive updates.
+- The project is developed with Python version `3.10`.
+- If you encounter any issues or have questions, feel free to contact me on [LinkedIn](https://www.linkedin.com/in/adnan-karol-aa1666179/).
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
