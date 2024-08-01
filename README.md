@@ -57,7 +57,7 @@ Here's an example of how to use the package:
 ```python
 from classifierAgent import classifierAgent
 
-dataset_path = "diabetes.csv"
+dataset_path = "sampleFile.csv"
 output_column = "Outcome"
 train_test_ratio = 0.25
 scaling_method = 'minmax'  # Choose 'minmax' or 'normalize'
