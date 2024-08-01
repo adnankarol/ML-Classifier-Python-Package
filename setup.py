@@ -36,6 +36,6 @@ setup(
         'svm', 'logistic regression', 'naive bayes', 'knn', 'decision tree'
     ],
     python_requires='>=3.10',
-    packages=find_packages(),  # Automatically find packages in the directory
+    packages=find_packages(),
     install_requires=parse_requirements('requirements.txt')
 )
