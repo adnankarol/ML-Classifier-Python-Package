@@ -1,1 +1,1 @@
-from classifierAgent import classifer
+from classifierAgent import classifierAgent
