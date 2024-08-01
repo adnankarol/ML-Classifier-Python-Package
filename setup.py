@@ -35,7 +35,7 @@ setup(
         'machine learning', 'classification', 'random forest', 'xgboost', 
         'svm', 'logistic regression', 'naive bayes', 'knn', 'decision tree'
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.10',
     packages=find_packages(),  # Automatically find packages in the directory
     install_requires=parse_requirements('requirements.txt'),
     entry_points={
