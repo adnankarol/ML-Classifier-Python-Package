@@ -1,5 +1,5 @@
 __author__ = "Adnan Karol"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __maintainer__ = "Adnan Karol"
 __email__ = "adnanmushtaq5@gmail.com"
 __status__ = "PROD"
@@ -18,7 +18,7 @@ def parse_requirements(filename):
 
 setup(
     name='classifier_agent',
-    version='1.0.0',  # Updated version number
+    version='1.0.1',  # Updated version number
     description='A Python package for performing classification on datasets in CSV or Excel format.',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -40,7 +40,7 @@ setup(
     install_requires=parse_requirements('requirements.txt'),
     entry_points={
         'console_scripts': [
-            'classifier_agent=classifier_agent.__main__:main',  # Adjust this according to your main script entry point
+            'classifier_agent=classifier_agent.__main__:main', 
         ],
     },
     project_urls={

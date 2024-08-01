@@ -1,5 +1,5 @@
 __author__ = "Adnan Karol"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __maintainer__ = "Adnan Karol"
 __email__ = "adnanmushtaq5@gmail.com"
 __status__ = "PROD"
@@ -152,7 +152,7 @@ def classifier_agent(dataset, output_column, train_test_ratio, scaling_method=No
             'params': {'n_neighbors': [3, 5, 7], 'weights': ['uniform', 'distance']}
         },
         'LogisticRegression': {
-            'model': LogisticRegression(max_iter=1000),
+            'model': LogisticRegression(),
             'params': {'C': [0.01, 0.1, 1, 10], 'solver': ['liblinear', 'saga']}
         },
         'DecisionTreeClassifier': {
