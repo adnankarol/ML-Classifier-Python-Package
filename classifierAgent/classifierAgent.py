@@ -1,5 +1,5 @@
 __author__ = "Adnan Karol"
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 __maintainer__ = "Adnan Karol"
 __email__ = "adnanmushtaq5@gmail.com"
 __status__ = "PROD"
