@@ -3,3 +3,102 @@
 build/
 dist/
 classifier_agent.egg-info/
+models/
+
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment directories
+.env/
+venv/
+ENV/
+env/
+venv.bak/
+ENV.bak/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.venv
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS Finder metadata
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
+
+# Models
+models/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+
+# Pyre type checker
+.pyre/
+
+# VS Code
+.history/
+.vscode/
+
+# Sphinx documentation
+docs/_build/
+
+# Flask instance folder
+instance/
+
+# Scrapy stuff
+.scrapy/
+
+# Pylint
+pylint-report.txt
+pylint-global.rc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment settings
+.local/
+
+# SQL
+*.sqlite
+*.sqlite3
+
+# Environment configuration files
+*.env
