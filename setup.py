@@ -18,8 +18,8 @@ def parse_requirements(filename):
 
 setup(
     name='classifierAgent',
-    version='1.0.7',  # Updated version number
-    description='A Python package for performing classification on datasets in CSV or Excel format.',
+    version='1.0.8',
+    description='A Python package for performing classification on datasets.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='https://github.com/adnanmushtaq1996/ML-Classifier-Python-Package',
