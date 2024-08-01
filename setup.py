@@ -1,5 +1,5 @@
 __author__ = "Adnan Karol"
-__version__ = "1.0.7"
+__version__ = "1.1.1"
 __maintainer__ = "Adnan Karol"
 __email__ = "adnanmushtaq5@gmail.com"
 __status__ = "PROD"
@@ -18,7 +18,7 @@ def parse_requirements(filename):
 
 setup(
     name='classifierAgent',
-    version='1.1.0',
+    version='1.1.1',
     description='A Python package for performing classification on datasets.',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -37,5 +37,10 @@ setup(
     ],
     python_requires='>=3.10',
     packages=find_packages(),
-    install_requires=parse_requirements('requirements.txt')
+    install_requires=parse_requirements('requirements.txt'),
+    entry_points={
+        'console_scripts': [
+            'classifierAgent=classifierAgent:classifierAgent', 
+        ],
+    },
 )
