@@ -7,7 +7,7 @@
 
 This Python package provides a comprehensive solution for performing classification tasks using various popular machine learning algorithms. It allows you to read a dataset, preprocess it, train multiple classifiers, perform hyperparameter tuning, and visualize model performance. Additionally, it provides options for scaling data, saving trained models, and customizing the output display.
 
-You can find the package on [PyPI]([https://packaging.python.org/tutorials/packaging-projects/](https://pypi.org/project/classifierAgent/)).
+You can find the package on [PyPI][https://packaging.python.org/tutorials/packaging-projects/](https://pypi.org/project/classifierAgent/).
  
 
 # Features
@@ -144,4 +144,4 @@ This setup will automatically build and publish your package to PyPI whenever yo
 
 # License
 
-This project is licensed under the MIT License - see the [LICENSE](License) file for details.
+This project is licensed under the MIT License - see the License file for details.
